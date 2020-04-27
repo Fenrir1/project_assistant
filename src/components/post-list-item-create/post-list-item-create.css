@@ -1,0 +1,215 @@
+.post-add-form {
+    width: 698px;
+    height: 551px;
+    top: 50%;
+
+    left: 50%;
+    margin-top: -275px;
+    margin-left: -348px;
+
+    background: #fff;
+    z-index: 100;
+    display: block;
+    position: fixed;
+
+    padding: 24px 54px 0 59px;
+}
+
+.post-add-form-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+}
+
+.post-add-form-close-btn {
+    cursor: pointer;
+}
+
+.post-add-form-footer {
+    height: 97px;
+}
+
+
+.post-add-form-body .custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "UPLOAD";
+}
+.custom-file-label::after {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    color: #DADADA;
+}
+
+.post-add-form-body .custom-file-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #AEAEAE;
+}
+
+
+.post-author-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #AEAEAE;
+  }
+
+.post-add-author {
+    position: relative;
+}
+
+.author-search-icon {
+    position: absolute;
+    display: block;
+    right: 9px;
+    top: 10px;
+}
+
+.post-add-message-group textarea {
+    margin-top: 11px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #484848;
+}
+
+.post-add-form-footer .custom-switch {
+    padding-left: 2.25rem;
+    padding-bottom: 1rem;    
+  }
+  
+.post-add-form-footer .custom-control-label {
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-bottom: 0.1rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+
+    color: #484848;
+}
+
+.post-add-form-footer .custom-switch .custom-control-label::before {
+    left: -2.25rem;
+    height: 24px;
+    width: 44px;   
+    pointer-events: all;
+    border-radius: 1rem;
+}
+
+.post-add-form-footer .custom-switch .custom-control-label::after {
+    top: calc(0.25rem + 2px);
+    left: calc(-2.25rem + 2px);
+    width: calc(24px - 4px);   
+    height: calc(24px - 4px); 
+    background-color: #adb5bd;
+    border-radius: 24px; 
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+}
+
+.post-add-form-footer .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(20px); 
+    transform: translateX(20px);
+  }
+
+.btn-outline-add-post {
+    border: 1px solid #6883E4;
+    width: 148px;
+    height: 32px;
+    border-radius: 5px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding-top: 5px;    
+}
+
+.part-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+
+    margin-bottom: 9px;
+    margin-top: 25px;
+}
+
+.btn-add-post-cancel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #757575;
+    cursor: pointer;
+}
+
+.btn-add-post-text {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #757575;
+}
+
+.post-add-form-error {
+    color: #F7645B;
+}

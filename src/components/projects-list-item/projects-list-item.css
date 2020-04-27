@@ -1,0 +1,26 @@
+.loader {
+    display: inline-block;
+    position: relative;
+    height: 5px;
+    width: 200px;
+    border-radius: 3px;
+
+    background-color: #F5F5F5;
+}
+
+.loader .bar {
+    position: absolute;
+    height: 5px;
+    width: 52%;
+    border-radius: 3px;
+    background-color: #6883E4;
+    animation-name: loader-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.delete-project svg {
+    cursor: pointer;
+}
+

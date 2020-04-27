@@ -1,0 +1,148 @@
+.charts-panel {
+    margin-top: -60px;
+}
+
+.chart-panel  {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    height: 240px;
+
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 28px;
+}
+
+.chart-panel-wraper  {
+    padding: 0;
+    padding-right: 19px;
+}
+
+@media (min-width: 720px) {
+    .chart-panel-wraper {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .earnings-panel {
+        height: 354px;
+    }
+}
+
+.chart-panel-wraper:nth-of-type(1) {
+    padding-right: 19px;
+    padding-bottom: 19px;
+}
+
+.chart-panel-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+
+    color: #C4C4C4;
+}
+
+.chart-panel-value {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #484848;
+}
+
+.chart-panel-value-large {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #484848;
+}
+
+.blue {
+    color: #6883E4;
+}
+
+.chart-panel-value-icon svg {
+    margin-right: 14px;
+}
+
+.chart-panel-subheading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C4C4C4;
+}
+
+.chart-panel-footer {
+    height: 103px;
+    padding-top: 18px;
+}
+
+.chart-pannel-specialization {
+    background: rgba(104, 131, 228, 0.2);
+    border-radius: 42px;
+    padding: 3px 17px;
+    margin-right: 3px;
+    height: 20px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #484848;
+    cursor: pointer;
+}
+.chart-pannel-specialization:hover {
+    background: rgba(104, 131, 228, 0.5);
+}
+
+.earnings-panel{
+    padding-right: 0;
+}
+.panel-chart {
+    width: 340px;
+    min-height: 178px;
+    position: relative;
+}
+
+.chart-bg {
+    position: absolute;
+    right: 25px;
+}
+.chart-front {
+    position: absolute;
+    right: 15px;
+}
+
+.chart-panel-stat-link {
+    height: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #6883E4;
+    cursor: pointer;
+}
+
+.chart-panel-stat-link svg {
+    margin-left: 10px;
+}

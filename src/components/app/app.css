@@ -1,0 +1,42 @@
+.section-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #757575;
+    margin-top: 27px;;
+}
+
+.footer-copyrate {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #757575;
+
+}
+  
+.pageSlider-enter.left {
+transform: translate3d(100%, 0, 0);
+}
+
+.pageSlider-enter.right {
+transform: translate3d(-100%, 0, 0);
+}
+
+.pageSlider-exit.left {
+transform: translate3d(-100%, 0, 0);
+}
+
+.pageSlider-exit.right {
+transform: translate3d(100%, 0, 0);
+}
+
+.pageSlider-enter.pageSlider-enter-active {
+transform: translate3d(0, 0, 0);
+transition: all 800ms ease-in-out;
+}

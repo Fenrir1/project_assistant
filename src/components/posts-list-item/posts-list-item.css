@@ -1,0 +1,252 @@
+.post-edit {
+    height: 38px;
+    border-bottom: 1px solid rgba(104, 131, 228, 0.2);
+}
+
+.post-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #484848; 
+
+    height: auto;
+    position: relative;
+    max-height: 135px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.edit-mode .post-title {
+    max-height: 84px;
+
+}
+
+.post-title-text {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 26px;    
+}
+
+.edit-mode .post-title-text {
+    padding-top: 0;    
+}
+.post-inner-img {
+    margin-right: 10px;
+}
+
+.post-inner-title {
+    display: flex;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #6883E4;
+}
+.big-blue {
+    font-size: 30px;
+}
+.normal-red {
+    color: #F7645B;
+}
+
+.post-inner-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C4C4C4;
+}
+
+.post-title-image .post-title-text {
+    position: absolute;
+    bottom: 5px;
+    left: 27px;
+
+    padding: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);    
+}
+
+.post-line-under {
+     width: 100%;
+}
+
+.line-under {
+    display: block;
+    margin: 0 21px;
+    border-top: 1px solid #ECECEC;
+}
+
+.post-author {
+    height: 55px;
+}
+
+.post-author-photo {
+    float: left;
+    border-radius: 50%;
+    margin: 4px 12px;
+}
+
+.post-author-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #192A3E;
+
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+
+.post-author-role {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.01em;    
+    
+    color: #90A0B7;
+}
+
+.post-not-published {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #DF4036;
+    background: #FFECEB;
+}
+.post-not-published i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.btn-outline-remove {
+    border: 1px solid #F7645B;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    
+    color: #DF4036;    
+    padding-top: 4px;
+}
+.btn-outline-remove:hover {
+    background: #F7645B;
+    color: white;
+}
+
+.btn-outline-unpublish {
+    border: 1px solid #F7645B;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    
+    color: #DF4036;    
+    padding-top: 4px;
+}
+.btn-outline-unpublish:hover {
+    background: #F7645B;
+    color: white;
+}
+
+.btn-outline-publish {
+    border: 1px solid #6883E4;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+
+    color: #6883E4;
+    padding-top: 4px;
+}
+.btn-outline-publish:hover {
+    background: #6883E4;
+    color: white;
+}
+
+.post-add-icon svg {
+   display: block; 
+   margin: 0 auto 10px auto;
+}
+.post-add-icon span {
+    display: block;
+    margin: 0 auto;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #6883E4;
+ }
+
+ .post-add-footer {
+     height: 66px;
+ }
+
+
+ .btn-outline-add-post {
+    width: 148px;
+    height: 23px;
+    
+    background: #6883E4;
+    border-radius: 5px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding-top: 3px;
+ }
+
+ .btn-outline-add-post:hover {
+    color: #FFFFFF;
+ }
